@@ -8,7 +8,7 @@ public class TouristTicket extends Ticket {
 
     // Using super() keyword to call constructor from Ticket class
 
-    public TouristTicket(String pnr, String from, String to, Flight flight,String departureDateTime, String arrivalDateTime,Passenger passenger, String seatNo, float price, boolean cancelled,String hotelAddress,String[] selectedTouristLocation) {
+    public TouristTicket(String pnr, String from, String to, Flight flight,String departureDateTime, String arrivalDateTime,Passenger passenger, String seatNo, float price, boolean cancelled,String hotelAddress) {
         super(pnr, from, to, flight, departureDateTime, arrivalDateTime, passenger, seatNo, price, cancelled);
         this.hotelAddress = hotelAddress;
         this.selectedTouristLocation = new String[5];

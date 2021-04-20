@@ -39,6 +39,8 @@ public abstract class Ticket {
         return Integer.parseInt(arrivalDateTime)-Integer.parseInt(departureDateTime);
     }
 
+
+
     // copying all getters & setters from RegularTicket/TouristTicket class
     public String getPnr() {
         return pnr;
